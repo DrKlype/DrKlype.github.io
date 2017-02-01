@@ -12,13 +12,59 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Boostrap Starter Page</title>
+    <title>Module 3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
+  <header>
 
-  <h1>Hello Coursera!</h1>
+        <!-- Here comes the NavBar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">  
+       <div class="navbar-header">
+          <a class="navbar-brand" href="#">Food LLC</a>
+
+
+            <!-- Setup for mobileview button, class="navbar-toggle collapsed referes to this type of small button that appeares in mobileview. (-768px) data toggle and data target appeals to a javascript plugin that generates this buttons effect. Aria-expanded is for screen readers apperently.. I don´t even know what a screen reader is. The same goes for the <span class="sr-only"> But Yaakov says to leave it alone-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Unordered list with id="nav-list" and class="collapse navbar-collapse" for giving the actual 'menu' look and not just to appear as a bulleted list inside de navbar -->
+        <div id="collapsable-nav" class="collapse navbar-collapse" >
+        <ul id="nav-list" class="nav navbar-nav">
+        <li><p class="visible-xs">Chicken</p></li>
+        <li><p class="visible-xs">Beef</p></li>
+        <li><p class="visible-xs">Sushi</p></li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+    
+</header>
+
+
+    <!-- Here come the jumbotron fillings -->
+
+<h1 class="text-center">Our Menu</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>

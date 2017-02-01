@@ -1,0 +1,26 @@
+
+/** Navbar **/
+
+/** Default settings of the whole navbar**/
+/** Border radius sets the corners of the borders to have a radius, which makes them round. **/
+
+.navbar-default {
+    background-color: #999999;
+    border-color: #E7E7E7;
+    color: #000000;
+    border-radius: 0px;
+	border: 0px;
+}
+
+.navbar-default .navbar-brand {
+	color: #000000;
+}
+
+#nav-list {
+	text-align: center;
+}
+
+body {
+	background-color: white;
+}
+
