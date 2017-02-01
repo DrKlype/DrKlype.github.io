@@ -1,3 +1,6 @@
+* {
+  	box-sizing: margin-box;
+}
 
 /** Navbar **/
 
@@ -6,21 +9,63 @@
 
 .navbar-default {
     background-color: #999999;
-    border-color: #E7E7E7;
+    border-color: #000000;
     color: #000000;
     border-radius: 0px;
-	border: 0px;
+
+	font-size: 125%;
 }
 
+
+
+
+/** The navbar-brand alone is not specific enough to override the bootstrap css rule, therefore the .navbar-default need to be written in.**/
 .navbar-default .navbar-brand {
 	color: #000000;
+	border: 1px;
+	border-color: black;
 }
 
 #nav-list {
 	text-align: center;
+	border-color: black
 }
+
+
 
 body {
 	background-color: white;
 }
+
+.text-center {
+	color: #000000;
+}
+
+.row {
+
+	margin: 30px;
+
+}
+
+#chicken {
+	text-align: center;
+	font-size: 125%;
+	color: #000000;
+	padding: 15px;
+
+}
+
+#really-tall-section {
+  	background-color: #999999;
+  	border: 0px;
+  	padding: 30;
+  	margin: 30;
+  	height: 1000px;
+  	text-align: justify;
+  	font-size: 125%;
+  	color: #000000;
+  	font-family: arial, Helvetica;
+  
+}
+
 
