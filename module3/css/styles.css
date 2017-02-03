@@ -25,8 +25,16 @@
 	border-color: black;
 }
 
+li ul .navbar .navbar-nav{
+	border:50px;
+	border-color: black;
+}
 
 
+.navbar-collapse {
+	border:1px;
+	border-color: black;
+}
 
 
 
@@ -56,7 +64,7 @@ body {
 #really-tall-section {
   	background-color: #999999;
   	border: 0px;
-  	height: 1000px;
+  	height: 2000px;
   	text-align: justify;
   	font-size: 125%;
   	color: #000000;
@@ -64,11 +72,15 @@ body {
   
 }
 
- .visible-xs {
+@media only screen and (max-width : 768px) {
+ 
+	.visible-xs { 
 	background-color: white;
 	text-align: center;
 	border: 1px;
 	border-color: black;
+	margin-top: 0px;
+    margin-bottom: 0px;
 
 } 
 
