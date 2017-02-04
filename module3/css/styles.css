@@ -1,64 +1,47 @@
 * {
-  	box-sizing: margin-box;
+  	box-sizing: border-box;
 }
 
 /** Navbar **/
 
 /** Default settings of the whole navbar**/
 /** Border radius sets the corners of the borders to have a radius, which makes them round. **/
-
 .navbar-default {
     background-color: #999999;
-    border-color: #000000;
     color: #000000;
     border-radius: 0px;
-	font-size: 125%;
+	font-size: 1,2em;
 }
 
-
-
-
-/** The navbar-brand alone is not specific enough to override the bootstrap css rule, therefore the .navbar-default need to be written in.**/
+/** The navbar-brand alone is not specific enough to override the bootstrap css rule, 
+therefore the .navbar-default need to be written in.**/
 .navbar-default .navbar-brand {
 	color: #000000;
-	border: 1px;
+}
+
+.navbar-default .navbar-collapse {
+	border-bottom-color: black;
 	border-color: black;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
-li ul .navbar .navbar-nav{
-	border:50px;
-	border-color: black;
-}
-
-
-.navbar-collapse {
-	border:1px;
-	border-color: black;
+.navbar-brand {
+ font-size: 2em;
 }
 
 
 
 
-body {
-	background-color: white;
-}
 
 .text-center {
 	color: #000000;
 }
 
-.row {
-
-	margin: 30px;
-
-}
-
 #chicken {
-	text-align: center;
-	font-size: 125%;
+	font-size: 2em;
 	color: #000000;
 	padding: 15px;
-
 }
 
 #really-tall-section {
@@ -68,17 +51,17 @@ body {
   	text-align: justify;
   	font-size: 125%;
   	color: #000000;
-  	font-family: arial, Helvetica;
-  
+  	font-family: arial, Helvetica;  
 }
+
+
  
 .visible-xs { 
 	background-color: white;
-	text-align: center;
-	border: 1px;
+	border: 2px;
 	border-color: black;
-	margin-top: 0px;
-    	margin-bottom: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
 } 
 
 
